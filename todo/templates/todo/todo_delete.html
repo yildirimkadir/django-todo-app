@@ -2,7 +2,7 @@
 <h2>Todo Delete</h2>
 <form action="" method="post">
   {% csrf_token %}
-  <p>Are You Sure! {{form.as_p}}</p>
+  <p>Are You Sure! {{todo}}</p>
   <input type="submit" value="delete" />
 </form>
 {% endblock content %}
